@@ -6,14 +6,7 @@
 // 2. The function should create a calendar for the given year/month.
 // 3. The calendar should be a table, where a week is <tr>, and a day is <td>. The table top should be <th> with weekday names: the first day should be Monday, and so on until Sunday.
 
-/**
- * @abstract Create a calendar for given year and month and add it to the page
- * @param {number} year as YYYY
- * @param {number} month as MM
- * @returns {undefined}
- * @author about.me/nightwalker.y (Yao Kan KOUASSI)
- * @date 2022-01-03
- */
+
 function createCalendar(year, month) {
     let table = document.createElement('table')
     // Create table header for weekday names
@@ -80,4 +73,4 @@ function createCalendar(year, month) {
     document.head.appendChild(link)
 }
 
-createCalendar(2023, 1)
+createCalendar(2024, 1)
